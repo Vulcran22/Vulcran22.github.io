@@ -494,20 +494,6 @@ color: black;}
 
 
 
-.rotate{}
-@keyframes orbit { 
-    from { 
-      transform: rotate(0) 
-    } 
-    to { 
-      transform: rotate(360deg) 
-    } 
-  }
-  
-  #erde {
-     animation: orbit 12s infinite linear;
-  }
-
 
 
 

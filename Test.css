@@ -374,6 +374,84 @@ color: black;}
 
 
 
+ 
+/*bewegende kästen*/
+
+.formula-1 p {
+	background: #00957f;
+	border: 2px solid #333;
+	border-radius: 100% / 100%;
+	border: bottom left radius 10em;;
+	border-bottom-right-radius: 10em;
+	font-size: 16px;
+	padding: 0.2em;
+	position: relative;
+	text-align: center;
+	width: 100px;
+}
+
+/*Animation */
+.formula-1 p {
+	animation: rennen 6s infinite 2s;
+}
+ 
+.formula-1 p:after {
+	right: 5px;
+}
+ 
+.formula-1 p:before {
+	left: 5px;
+}
+ 
+.formula-1 .linear  {
+	background: #7c0000;
+}
+ 
+.formula-1 .ease-in  {
+	background: #00957f;
+}
+ 
+.formula-1 .ease-out  {
+	border: 1px solid black;
+	background: #7c0000;
+}
+ 
+.formula-1 .ease-in-out  {
+	background: #00957f;
+}
+
+.formula-1 .linear  {
+	animation-timing-function: linear;
+}
+ 
+.formula-1 .ease-in  {
+	animation-timing-function: linear;
+}
+ 
+.formula-1 .ease-out  {
+	animation-timing-function: linear;
+}
+ 
+.formula-1 .ease-in-out  {
+	animation-timing-function: linear;
+}
+ 
+@keyframes rennen {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(80em);
+  }
+}
+
+
+
+
+
+
+
 
 
 

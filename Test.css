@@ -446,7 +446,15 @@ color: black;}
   }
 }
 
+.cookie{
+    height: 250px;
+    width: 250px;
+}
 
+.cookie:hover{
+    height: 260px;
+    width: 260px;
+}
 
 
 

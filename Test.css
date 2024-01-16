@@ -531,6 +531,149 @@ h1 {
       opacity: 1;	
     }
   }
+  .Upgrade1{
+    display: inline-block;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    width: 150px;
+    height: 50px ;
+    border-radius: 15px;
+    border-color:black;
+    font-size: larger;
+    position: relative;
+    bottom: -2em;
+    border-width: 3px;
+}
+
+.Upgrade1:hover{
+    background-color:green;
+}
+
+.Upgrade2{
+    display: inline-block;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    width: 150px;
+    height: 50px ;
+    border-radius: 15px;
+    border-color:black;
+    font-size: larger;
+    position: relative;
+    bottom: -2em;
+    border-width: 3px;
+}
+
+.Upgrade2:hover{
+    background-color:yellow;
+}
+
+.Upgrade3{
+    display: inline-block;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    width: 150px;
+    height: 50px ;
+    border-radius: 15px;
+    border-color:black;
+    font-size: larger;
+    position: relative;
+    bottom: -2em;
+    border-width: 3px;
+}
+
+.Upgrade3:hover{
+    background-color:red;
+}
+
+.cookieclicker2 {
+    animation-name: animation_clicker;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    text-decoration: underline;
+    position: relative;
+    bottom: -2em;
+
+}
+
+@keyframes animation_clicker {
+    0% {
+        opacity: 1;
+        color: blue;
+    }
+
+    25% {
+        opacity: 1;
+        color: green;
+    }
+
+    50% {
+        opacity: 1;
+        color: red;
+    }
+
+    75%{opacity: 1;
+        color: yellow;
+        
+    }
+
+    100%{
+        opacity: 1;
+        color: aqua;
+    }
+}
+
+.cookiewin {
+    text-align: center;	
+    animation: textwelle 3s;
+    font-size: 2em;
+  }
+   
+  @keyframes textwelle {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }  
+    70% {
+      transform: scale(1.25);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;	
+    }
+
+}
+
+@keyframes animation_clicker {
+    0% {
+        opacity: 1;
+        color: blue;
+    }
+
+    25% {
+        opacity: 1;
+        color: green;
+    }
+
+    50% {
+        opacity: 1;
+        color: red;
+    }
+
+    75%{opacity: 1;
+        color: yellow;
+        
+    }
+
+    100%{
+        opacity: 1;
+        color: aqua;
+    }
+}
 
 
 

@@ -675,6 +675,26 @@ h1 {
     }
 }
 
+.zurück8{
+    display: inline-block;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    width: 150px;
+    height: 25px ;
+    border-radius: 15px;
+    border-color: aqua;
+    font-size: larger;
+    position: relative;
+    bottom: -3em;
+    right: -35em;
+    border-width: 3px;
+}
+
+.zurück8:hover{
+    background-color: aqua;
+}
+
 
 
 

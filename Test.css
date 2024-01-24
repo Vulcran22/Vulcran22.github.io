@@ -536,62 +536,6 @@ h1 {
       opacity: 1;	
     }
   }
-  .Upgrade1{
-    display: inline-block;
-    background-color: transparent;
-    color: black;
-    cursor: pointer;
-    width: 150px;
-    height: 50px ;
-    border-radius: 15px;
-    border-color:black;
-    font-size: larger;
-    position: relative;
-    bottom: -2em;
-    border-width: 3px;
-}
-
-.Upgrade1:hover{
-    background-color:green;
-}
-
-.Upgrade2{
-    display: inline-block;
-    background-color: transparent;
-    color: black;
-    cursor: pointer;
-    width: 150px;
-    height: 50px ;
-    border-radius: 15px;
-    border-color:black;
-    font-size: larger;
-    position: relative;
-    bottom: -2em;
-    border-width: 3px;
-}
-
-.Upgrade2:hover{
-    background-color:yellow;
-}
-
-.Upgrade3{
-    display: inline-block;
-    background-color: transparent;
-    color: black;
-    cursor: pointer;
-    width: 150px;
-    height: 50px ;
-    border-radius: 15px;
-    border-color:black;
-    font-size: larger;
-    position: relative;
-    bottom: -2em;
-    border-width: 3px;
-}
-
-.Upgrade3:hover{
-    background-color:red;
-}
 
 .cookieclicker2 {
     animation-name: animation_clicker;
@@ -671,33 +615,44 @@ h1 {
     background-color: aqua;
 }
 
-
-
-.bildrandgewonnen{
-    border: color(yellow);
-    border-radius: 10em;
-    border-style: double;
-    border-width: 2em;
-    position: relative;
-    top: 5em;
-    border: gold;
-}
-    
-.gewonnenbutton{
+.cookiebutton{
     display: inline-block;
     background-color: transparent;
-    color: black;
+    color:black;
     cursor: pointer;
-    width: 250px;
-    height: 100px ;
+    width: 150px;
+    height: 50px ;
     border-radius: 15px;
+    transition: all 0.5s;
     border-color:gold;
+    left: 0;
     font-size: larger;
-    position: relative;
-    bottom: -8em;
-    border-width: 3px;
+    font-style: italic;
+
+
+}
+.cookiebutton:hover {
+    background-color:yellow;
+    color: black;
 }
 
-.gewonnenbutton:hover{
-    background-color: gold;
+.cookiebutton2{
+    display: inline-block;
+    background-color: transparent;
+    color:transparent;
+    cursor: pointer;
+    width: 157px;
+    height: 75px ;
+    border-radius: 15px;
+    transition: all 0.5s;
+    border-color:gold;
+    left: 0;
+    font-size: larger;
+    font-style: italic;
+
+
+}
+.cookiebutton2:hover {
+    background-color:transparent;
+    color: black;
 }

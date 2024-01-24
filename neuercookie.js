@@ -52,7 +52,7 @@ function update() {
     }
     function buyMultiplier() {
         if (cookiecount >= ((multiplier+1) * 100)) {
-            cookiecount = cookiecount - ((multiplier+1) * 100);
+            cookiecount = cookiecount - ((multiplier+1) * 50);
             multiplier = multiplier + 1;
             update()
         }

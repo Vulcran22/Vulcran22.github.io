@@ -1,5 +1,5 @@
 var clicks = 0;
-var multiplikator = 0;s
+var multiplikator = 0;
 
 function onClick() {
   clicks += 1;
@@ -13,10 +13,10 @@ function clickme() {
 }
 document.getElementById("Upgrade1").addEventListener("click", clickme)
 
-
+/*
 function cookiekosten() {
   kosten -= 100;
-  document.getElementById("kosten").addEventListener.innerHTML = kosten;
+  document.getElementById(kosten).innerHTML = kosten;
 
   if (clicks < 100)
     document.getElementById("Upgrade1").disabled = true;
@@ -24,4 +24,5 @@ function cookiekosten() {
     document.getElementById("Upgrade1").disabled = false;
 }
 document.getAnimations("Upgrade1").addEventListener("click",cookiekosten)
-
+}
+*/

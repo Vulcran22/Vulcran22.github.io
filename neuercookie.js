@@ -27,22 +27,7 @@ function update() {
         cookiecount = cookiecount + 1
         update()
     }
-
-    function save() {
-        localStorage.setItem("cookiecount", cookiecount);
-        localStorage.setItem("autoClick", autoClick);
-        localStorage.setItem("multiplier", multiplier);
-    }
-    function load() {
-        cookiecount = localStorage.getItem("cookiecount");
-        cookiecount = parseInt(cookiecount);
-        autoClick = localStorage.getItem("autoClick");
-        autoClick = parseInt(autoClick);
-        multiplier = localStorage.getItem("multiplier");
-        multiplier = parseInt(multiplier);        
-
     update()
-    }
     function buyAutoClick() {
         if (cookiecount >= ((autoClick+1) * 12)) {
             cookiecount = cookiecount - ((autoClick+1) * 12);

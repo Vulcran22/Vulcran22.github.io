@@ -83,14 +83,7 @@ body{
     height: 100vh;
 }
 
-.content h2 b{
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width:3px ;
-    -webkit-text-stroke-color: #fff;
-    font-size: 80px;
-    text-transform: uppercase;
-    letter-spacing: 12px;
-}
+
 
 @keyframes animate {
     0%{

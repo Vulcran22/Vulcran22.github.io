@@ -34,7 +34,21 @@
     left: -4em;
 }
 
+.class3-2 {
+    color: white;
+    text-decoration: underline;
+    position: relative;
+    top: -10em;
+    left: 17em;
 
+}
+.class3-3 {
+    color: white;
+    text-decoration: underline;
+    position: relative;
+    top: -10em;
+    left: 7em;
+}
 
 .class6 {
     border-color: red;

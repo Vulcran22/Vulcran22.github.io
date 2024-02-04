@@ -33,13 +33,13 @@
     top: -10em;
     left: -4em;
 }
-
+/*Roboter1.html*/
 .class3-2 {
     color: white;
     text-decoration: underline;
     position: relative;
     top: -10em;
-    left: 17em;
+    left: 10em;
 
 }
 .class3-3 {
@@ -47,15 +47,139 @@
     text-decoration: underline;
     position: relative;
     top: -10em;
-    left: 7em;
+    left:-8em;
 }
 
-.class6 {
-    border-color: red;
-    border-radius: 10px;
-    border-width: 5px;
-    border-style: double;
+.roboter1position{
+    position: relative;
+    bottom: -12em;
+    left: -32em;
 }
+
+/*Falsch1.html*/
+.button3-1{
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    width:150;
+    height: 25px;
+    border-color: red;
+    font-size: large;
+    position: relative;
+    left: -12em;
+}
+
+.button3-1:hover{
+    background-color: red;
+    color: black;
+
+}
+
+.blink1 {
+    animation-name: animation_blink;
+    animation-timing-function: ease-in;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: -10em;
+    right:-2em;
+}
+
+@keyframes animation_blink {
+    0% {
+        opacity: 1;
+        color: red;
+    }
+
+    50% {
+        opacity: 0.1;
+        color: white;
+    }
+
+    100% {
+        opacity: 1;
+        color: red;
+    }
+}
+/*Ende*/
+/*Falsch2.html*/
+
+.blink2 {
+    animation-name: animation_blink;
+    animation-timing-function: ease-in;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    position:relative;
+    top: -10em;
+    right:-2em;
+
+}
+
+@keyframes animation_blink {
+    0% {
+        opacity: 1;
+        color: red;
+    }
+
+    50% {
+        opacity: 0.1;
+        color: white;
+    }
+
+    100% {
+        opacity: 1;
+        color: red;
+    }
+}
+
+.button3-2{
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    width:150;
+    height: 25px;
+    border-color: red;
+    font-size: large;
+    position: relative;
+    left: -12em;
+}
+
+.button3-2:hover{
+    background-color: red;
+    color: black;
+
+}
+/*Ende*/
+
+/*Roboter2.html*/
+
+.class3-4 {
+    color: white;
+    text-decoration: underline;
+    position: relative;
+    top: -22em;
+    left: 14em;
+}
+
+.class3-5 {
+    color: white;
+    text-decoration: underline;
+    position: relative;
+    bottom:-3em;
+    left:-7em;
+}
+
+.roboter1position2{
+    position: relative;
+    bottom: -12em;
+    left: -32em;
+}
+
+
+
+
+
+
 
 
 
